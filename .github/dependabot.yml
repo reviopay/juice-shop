@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "npm" # Specify your package ecosystem (e.g., npm, pip, maven, etc.)
+    directory: "/"          # The directory where the package manager's manifest file is located
+    schedule:
+      interval: "daily"      # Set the interval to daily
